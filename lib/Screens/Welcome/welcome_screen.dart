@@ -17,9 +17,9 @@ class WelcomeScreen extends StatelessWidget {
             desktop: Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                const Expanded(
-                  child: WelcomeImage(),
-                ),
+                // const Expanded(
+                //   child: WelcomeImage(),
+                // ),
                 Expanded(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -51,7 +51,7 @@ class MobileWelcomeScreen extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
-        const WelcomeImage(),
+        // const WelcomeImage(),
         Row(
           children: const [
             Spacer(),
