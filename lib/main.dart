@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_auth/Screens/Welcome/welcome_screen.dart';
 import 'package:flutter_auth/constants.dart';
-import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:firebase_core/firebase_core.dart';
+
+import 'firebase_options.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Supabase.initialize(
-    url: 'https://vbjianvemevaelqummqx.supabase.co',
-    anonKey:
-        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InZiamlhbnZlbWV2YWVscXVtbXF4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2NzYzNjQyNjAsImV4cCI6MTk5MTk0MDI2MH0.xe0Ye_KyUJ0j0IKwMW7bdlLLOaAxtLeQOgKcaPhEAJo',
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
   );
   runApp(MyApp());
 }
-
-final supabase = Supabase.instance.client;
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);

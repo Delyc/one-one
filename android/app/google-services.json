@@ -1,40 +1,78 @@
 {
   "project_info": {
-    "project_number": "10265668297",
-    "project_id": "one-one-70509",
-    "storage_bucket": "one-one-70509.appspot.com"
+    "project_number": "75816049578",
+    "project_id": "one-one-3ea4a",
+    "storage_bucket": "one-one-3ea4a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:10265668297:android:f526ecf9a2a10219957b18",
+        "mobilesdk_app_id": "1:75816049578:android:abc4c4803a269773f929d3",
         "android_client_info": {
           "package_name": "com.example.flutter_auth"
         }
       },
       "oauth_client": [
         {
-          "client_id": "10265668297-ifh83vnemaiifc7ud88u516nsueu1mqt.apps.googleusercontent.com",
+          "client_id": "75816049578-ldaa06kt1skaactr50nnicmnvcm5hga9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAgRO-59WFI6XFP_zohzijffRhqHi7N86Y"
+          "current_key": "AIzaSyCSYqUY2QLbbtBliRY9e8sH-_lLwMvB5F8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "10265668297-ifh83vnemaiifc7ud88u516nsueu1mqt.apps.googleusercontent.com",
+              "client_id": "75816049578-c0th8mmupfr80jvia8k0mkschgembcgu.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "10265668297-ah60jsmps5fa0jjdha48vm7vkcb8sm0f.apps.googleusercontent.com",
+              "client_id": "75816049578-3bc9sugbr73ravad8p9jt6ui70fqocbc.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.flutterAuth"
+                "bundle_id": "com.one-one",
+                "app_store_id": "123456789"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75816049578:android:2ee7bedfaca52dcdf929d3",
+        "android_client_info": {
+          "package_name": "com.one_one"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75816049578-ldaa06kt1skaactr50nnicmnvcm5hga9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSYqUY2QLbbtBliRY9e8sH-_lLwMvB5F8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "75816049578-c0th8mmupfr80jvia8k0mkschgembcgu.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "75816049578-3bc9sugbr73ravad8p9jt6ui70fqocbc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.one-one",
+                "app_store_id": "123456789"
               }
             }
           ]
