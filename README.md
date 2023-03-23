@@ -10,12 +10,5 @@ Our Authentification Pages
   <img src="https://github.com/WahomeKezia/Assets/blob/main/ErrorLogin.png" />
   <img src="https://github.com/WahomeKezia/Assets/blob/main/InvalidCredentials.png"/>
   <img src="https://github.com/WahomeKezia/Assets/blob/main/Homepage.png" /> 
-    <style>
-            
-img.resize{
-    width:256px;
-    height: 256px;
-}
-            
-            </style>
+
 </div>
